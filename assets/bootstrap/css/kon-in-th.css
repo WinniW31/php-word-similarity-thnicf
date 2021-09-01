@@ -1,0 +1,42 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+  margin-bottom: 60px;
+}
+
+body#login {
+  background:url("https://m.kon.in.th/devadmin/assets/images/um-bg-kon-12112020-3.jpeg") center center / cover no-repeat fixed;
+  height: auto;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+#loginbox{
+  margin-top: 100px;
+}
+
+#loginbox.card{
+  border: none;
+}
+
+#loginbox .card-header{
+  background: #17a2b8;
+  font-size: 14px;
+  color: #fff;
+}
+
+#login-logo{
+  background:url("https://m.kon.in.th/devadmin/assets/images/logo-kon-rc.png") center no-repeat;
+  min-height: 100px;
+  margin-bottom: 20px;
+  display: block;
+}
